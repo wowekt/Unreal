@@ -1,10 +1,10 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 3/12/2017, 02:32:09
+      Time of this report: 5/13/2017, 02:12:14
              Machine name: DESKTOP-CEH7678
                Machine Id: {6767A113-B79F-4D4A-A7F6-12D21578A804}
-         Operating System: Windows 10 Home 64-bit (10.0, Build 14393) (14393.rs1_release.161220-1747)
+         Operating System: Windows 10 Home 64-bit (10.0, Build 14393) (14393.rs1_release_sec.170427-1353)
                  Language: Korean (Regional Setting: Korean)
       System Manufacturer: To Be Filled By O.E.M.
              System Model: To Be Filled By O.E.M.
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz (4 CPUs), ~3.3GHz
                    Memory: 16384MB RAM
       Available OS Memory: 16318MB RAM
-                Page File: 7597MB used, 10765MB available
+                Page File: 5694MB used, 12669MB available
               Windows Dir: C:\Windows
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -244,6 +244,48 @@ USB Devices
 | Driver: USBHUB3.SYS, 7/16/2016 20:41:55, 535904 bytes
 | 
 +-+ USB Composite Device
+| | Vendor/Product ID: 0x05D5, 0x624C
+| | Location: Port_#0008.Hub_#0001
+| | Matching Device ID: USB\COMPOSITE
+| | Service: usbccgp
+| | Driver: usbccgp.sys, 7/16/2016 20:41:55, 169312 bytes
+| | 
+| +-+ USB 입력 장치
+| | | Vendor/Product ID: 0x05D5, 0x624C
+| | | Location: 0000.0014.0000.008.000.000.000.000.000
+| | | Matching Device ID: USB\Class_03&SubClass_01
+| | | Lower Filters: nosku, Mkd2Nadr
+| | | Service: HidUsb
+| | | Driver: hidusb.sys, 11/21/2016 19:11:59, 38400 bytes
+| | | Driver: hidclass.sys, 11/21/2016 19:11:59, 156672 bytes
+| | | Driver: hidparse.sys, 11/21/2016 19:11:59, 40960 bytes
+| | | 
+| | +-+ HID 키보드 장치
+| | | | Vendor/Product ID: 0x05D5, 0x624C
+| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
+| | | | Lower Filters: JRSUKD25
+| | | | Service: kbdhid
+| | | | Driver: kbdhid.sys, 11/21/2016 19:11:59, 39424 bytes
+| | | | Driver: kbdclass.sys, 7/16/2016 20:41:54, 62304 bytes
+| | | 
+| +-+ USB 입력 장치
+| | | Vendor/Product ID: 0x05D5, 0x624C
+| | | Location: 0000.0014.0000.008.000.000.000.000.000
+| | | Matching Device ID: USB\Class_03
+| | | Service: HidUsb
+| | | Driver: hidusb.sys, 11/21/2016 19:11:59, 38400 bytes
+| | | Driver: hidclass.sys, 11/21/2016 19:11:59, 156672 bytes
+| | | Driver: hidparse.sys, 11/21/2016 19:11:59, 40960 bytes
+| | | 
+| | +-+ HID 키보드 장치
+| | | | Vendor/Product ID: 0x05D5, 0x624C
+| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
+| | | | Lower Filters: JRSUKD25
+| | | | Service: kbdhid
+| | | | Driver: kbdhid.sys, 11/21/2016 19:11:59, 39424 bytes
+| | | | Driver: kbdclass.sys, 7/16/2016 20:41:54, 62304 bytes
+| | 
++-+ USB Composite Device
 | | Vendor/Product ID: 0x04D9, 0xA135
 | | Location: Port_#0009.Hub_#0001
 | | Matching Device ID: USB\COMPOSITE
@@ -254,7 +296,7 @@ USB Devices
 | | | Vendor/Product ID: 0x04D9, 0xA135
 | | | Location: 0000.0014.0000.009.000.000.000.000.000
 | | | Matching Device ID: USB\Class_03&SubClass_01
-| | | Lower Filters: nosku
+| | | Lower Filters: nosku, Mkd2Nadr
 | | | Service: HidUsb
 | | | Driver: hidusb.sys, 11/21/2016 19:11:59, 38400 bytes
 | | | Driver: hidclass.sys, 11/21/2016 19:11:59, 156672 bytes
@@ -263,6 +305,7 @@ USB Devices
 | | +-+ HID 키보드 장치
 | | | | Vendor/Product ID: 0x04D9, 0xA135
 | | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
+| | | | Lower Filters: JRSUKD25
 | | | | Service: kbdhid
 | | | | Driver: kbdhid.sys, 11/21/2016 19:11:59, 39424 bytes
 | | | | Driver: kbdclass.sys, 7/16/2016 20:41:54, 62304 bytes
@@ -282,46 +325,6 @@ USB Devices
 | | | | Service: mouhid
 | | | | Driver: mouhid.sys, 7/16/2016 20:41:54, 32256 bytes
 | | | | Driver: mouclass.sys, 7/16/2016 20:41:54, 59232 bytes
-| | 
-+-+ USB Composite Device
-| | Vendor/Product ID: 0x05D5, 0x624C
-| | Location: Port_#0008.Hub_#0001
-| | Matching Device ID: USB\COMPOSITE
-| | Service: usbccgp
-| | Driver: usbccgp.sys, 7/16/2016 20:41:55, 169312 bytes
-| | 
-| +-+ USB 입력 장치
-| | | Vendor/Product ID: 0x05D5, 0x624C
-| | | Location: 0000.0014.0000.008.000.000.000.000.000
-| | | Matching Device ID: USB\Class_03&SubClass_01
-| | | Lower Filters: nosku
-| | | Service: HidUsb
-| | | Driver: hidusb.sys, 11/21/2016 19:11:59, 38400 bytes
-| | | Driver: hidclass.sys, 11/21/2016 19:11:59, 156672 bytes
-| | | Driver: hidparse.sys, 11/21/2016 19:11:59, 40960 bytes
-| | | 
-| | +-+ HID 키보드 장치
-| | | | Vendor/Product ID: 0x05D5, 0x624C
-| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
-| | | | Service: kbdhid
-| | | | Driver: kbdhid.sys, 11/21/2016 19:11:59, 39424 bytes
-| | | | Driver: kbdclass.sys, 7/16/2016 20:41:54, 62304 bytes
-| | | 
-| +-+ USB 입력 장치
-| | | Vendor/Product ID: 0x05D5, 0x624C
-| | | Location: 0000.0014.0000.008.000.000.000.000.000
-| | | Matching Device ID: USB\Class_03
-| | | Service: HidUsb
-| | | Driver: hidusb.sys, 11/21/2016 19:11:59, 38400 bytes
-| | | Driver: hidclass.sys, 11/21/2016 19:11:59, 156672 bytes
-| | | Driver: hidparse.sys, 11/21/2016 19:11:59, 40960 bytes
-| | | 
-| | +-+ HID 키보드 장치
-| | | | Vendor/Product ID: 0x05D5, 0x624C
-| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
-| | | | Service: kbdhid
-| | | | Driver: kbdhid.sys, 11/21/2016 19:11:59, 39424 bytes
-| | | | Driver: kbdclass.sys, 7/16/2016 20:41:54, 62304 bytes
 
 ----------------
 Gameport Devices
@@ -335,13 +338,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 189.4 GB
+ Free Space: 158.6 GB
 Total Space: 261.8 GB
 File System: NTFS
       Model: Crucial_CT275MX300SSD1
 
       Drive: D:
- Free Space: 924.7 GB
+ Free Space: 895.9 GB
 Total Space: 953.9 GB
 File System: NTFS
       Model: WDC WD10EZEX-08WN4A0
@@ -379,7 +382,7 @@ Device ID: PCI\VEN_8086&DEV_A114&SUBSYS_A1141849&REV_F1\3&11583659&0&E0
 
      Name: 표준 SATA AHCI 컨트롤러
 Device ID: PCI\VEN_8086&DEV_A102&SUBSYS_A1021849&REV_31\3&11583659&0&B8
-   Driver: C:\Windows\system32\DRIVERS\storahci.sys, 10.00.14393.0206 (English), 11/21/2016 19:11:59, 130912 bytes
+   Driver: C:\Windows\system32\DRIVERS\storahci.sys, 10.00.14393.0953 (English), 3/4/2017 16:08:59, 130912 bytes
 
      Name: NVIDIA GeForce GTX 1060 6GB
 Device ID: PCI\VEN_10DE&DEV_1C03&SUBSYS_1C0310DE&REV_A1\4&25438C51&0&0008
@@ -489,37 +492,37 @@ WMSpeech Decoder DMO,0x00600800,1,1,WMSPDMOD.DLL,10.00.14393.0000
 MP3 Decoder DMO,0x00600800,1,1,mp3dmod.dll,10.00.14393.0000
 Mpeg4s Decoder DMO,0x00800001,1,1,mp4sdecd.dll,10.00.14393.0000
 WMV Screen decoder DMO,0x00600800,1,1,wmvsdecd.dll,10.00.14393.0000
-WMVideo Decoder DMO,0x00800001,1,1,wmvdecod.dll,10.00.14393.0000
+WMVideo Decoder DMO,0x00800001,1,1,wmvdecod.dll,10.00.14393.0953
 Mpeg43 Decoder DMO,0x00800001,1,1,mp43decd.dll,10.00.14393.0000
 Mpeg4 Decoder DMO,0x00800001,1,1,mpg4decd.dll,10.00.14393.0000
 DV Muxer,0x00400000,0,0,qdv.dll,10.00.14393.0000
-Color Space Converter,0x00400001,1,1,quartz.dll,10.00.14393.0000
+Color Space Converter,0x00400001,1,1,quartz.dll,10.00.14393.1066
 WM ASF Reader,0x00400000,0,0,qasf.dll,12.00.14393.0000
-AVI Splitter,0x00600000,1,1,quartz.dll,10.00.14393.0000
-VGA 16 Color Ditherer,0x00400000,1,1,quartz.dll,10.00.14393.0000
-SBE2MediaTypeProfile,0x00200000,0,0,sbe.dll,10.00.14393.0206
-Microsoft DTV-DVD Video Decoder,0x005fffff,2,4,msmpeg2vdec.dll,10.00.14393.0594
+AVI Splitter,0x00600000,1,1,quartz.dll,10.00.14393.1066
+VGA 16 Color Ditherer,0x00400000,1,1,quartz.dll,10.00.14393.1066
+SBE2MediaTypeProfile,0x00200000,0,0,sbe.dll,10.00.14393.1066
+Microsoft DTV-DVD Video Decoder,0x005fffff,2,4,msmpeg2vdec.dll,10.00.14393.0953
 AC3 Parser Filter,0x00600000,1,1,mpg2splt.ax,10.00.14393.0000
-StreamBufferSink,0x00200000,0,0,sbe.dll,10.00.14393.0206
-MJPEG Decompressor,0x00600000,1,1,quartz.dll,10.00.14393.0000
-MPEG-I Stream Splitter,0x00600000,1,2,quartz.dll,10.00.14393.0000
-SAMI (CC) Parser,0x00400000,1,1,quartz.dll,10.00.14393.0000
+StreamBufferSink,0x00200000,0,0,sbe.dll,10.00.14393.1066
+MJPEG Decompressor,0x00600000,1,1,quartz.dll,10.00.14393.1066
+MPEG-I Stream Splitter,0x00600000,1,2,quartz.dll,10.00.14393.1066
+SAMI (CC) Parser,0x00400000,1,1,quartz.dll,10.00.14393.1066
 VBI Codec,0x00600000,1,4,VBICodec.ax,10.00.14393.0000
 MPEG-2 Splitter,0x005fffff,1,0,mpg2splt.ax,10.00.14393.0000
 Closed Captions Analysis Filter,0x00200000,2,5,cca.dll,10.00.14393.0000
-SBE2FileScan,0x00200000,0,0,sbe.dll,10.00.14393.0206
+SBE2FileScan,0x00200000,0,0,sbe.dll,10.00.14393.1066
 Microsoft MPEG-2 Video Encoder,0x00200000,1,1,msmpeg2enc.dll,10.00.14393.0000
-Internal Script Command Renderer,0x00800001,1,0,quartz.dll,10.00.14393.0000
-MPEG Audio Decoder,0x03680001,1,1,quartz.dll,10.00.14393.0000
+Internal Script Command Renderer,0x00800001,1,0,quartz.dll,10.00.14393.1066
+MPEG Audio Decoder,0x03680001,1,1,quartz.dll,10.00.14393.1066
 DV Splitter,0x00600000,1,2,qdv.dll,10.00.14393.0000
-Video Mixing Renderer 9,0x00200000,1,0,quartz.dll,10.00.14393.0000
+Video Mixing Renderer 9,0x00200000,1,0,quartz.dll,10.00.14393.1066
 Microsoft MPEG-2 Encoder,0x00200000,2,1,msmpeg2enc.dll,10.00.14393.0000
-ACM Wrapper,0x00600000,1,1,quartz.dll,10.00.14393.0000
-Video Renderer,0x00800001,1,0,quartz.dll,10.00.14393.0000
-MPEG-2 Video Stream Analyzer,0x00200000,0,0,sbe.dll,10.00.14393.0206
+ACM Wrapper,0x00600000,1,1,quartz.dll,10.00.14393.1066
+Video Renderer,0x00800001,1,0,quartz.dll,10.00.14393.1066
+MPEG-2 Video Stream Analyzer,0x00200000,0,0,sbe.dll,10.00.14393.1066
 Line 21 Decoder,0x00600000,1,1,,
-Video Port Manager,0x00600000,2,1,quartz.dll,10.00.14393.0000
-Video Renderer,0x00400000,1,0,quartz.dll,10.00.14393.0000
+Video Port Manager,0x00600000,2,1,quartz.dll,10.00.14393.1066
+Video Renderer,0x00400000,1,0,quartz.dll,10.00.14393.1066
 VPS Decoder,0x00200000,0,0,WSTPager.ax,10.00.14393.0000
 WM ASF Writer,0x00400000,0,0,qasf.dll,12.00.14393.0000
 VBI Surface Allocator,0x00600000,1,1,vbisurf.ax,
@@ -531,30 +534,30 @@ Microsoft MPEG-2 Audio Encoder,0x00200000,1,1,msmpeg2enc.dll,10.00.14393.0000
 WST Pager,0x00200000,1,1,WSTPager.ax,10.00.14393.0000
 MPEG-2 Demultiplexer,0x00600000,1,1,mpg2splt.ax,10.00.14393.0000
 DV Video Decoder,0x00800000,1,1,qdv.dll,10.00.14393.0000
-SampleGrabber,0x00200000,1,1,qedit.dll,10.00.14393.0206
-Null Renderer,0x00200000,1,0,qedit.dll,10.00.14393.0206
+SampleGrabber,0x00200000,1,1,qedit.dll,10.00.14393.1066
+Null Renderer,0x00200000,1,0,qedit.dll,10.00.14393.1066
 MPEG-2 Sections and Tables,0x005fffff,1,0,Mpeg2Data.ax,10.00.14393.0000
 Microsoft AC3 Encoder,0x00200000,1,1,msac3enc.dll,10.00.14393.0206
-StreamBufferSource,0x00200000,0,0,sbe.dll,10.00.14393.0206
+StreamBufferSource,0x00200000,0,0,sbe.dll,10.00.14393.1066
 Smart Tee,0x00200000,1,2,qcap.dll,10.00.14393.0000
 Overlay Mixer,0x00200000,0,0,,
-AVI Decompressor,0x00600000,1,1,quartz.dll,10.00.14393.0000
-AVI/WAV File Source,0x00400000,0,2,quartz.dll,10.00.14393.0000
-Wave Parser,0x00400000,1,1,quartz.dll,10.00.14393.0000
-MIDI Parser,0x00400000,1,1,quartz.dll,10.00.14393.0000
-Multi-file Parser,0x00400000,1,1,quartz.dll,10.00.14393.0000
-File stream renderer,0x00400000,1,1,quartz.dll,10.00.14393.0000
+AVI Decompressor,0x00600000,1,1,quartz.dll,10.00.14393.1066
+AVI/WAV File Source,0x00400000,0,2,quartz.dll,10.00.14393.1066
+Wave Parser,0x00400000,1,1,quartz.dll,10.00.14393.1066
+MIDI Parser,0x00400000,1,1,quartz.dll,10.00.14393.1066
+Multi-file Parser,0x00400000,1,1,quartz.dll,10.00.14393.1066
+File stream renderer,0x00400000,1,1,quartz.dll,10.00.14393.1066
 Microsoft DTV-DVD Audio Decoder,0x005fffff,1,1,msmpeg2adec.dll,10.00.14393.0000
-StreamBufferSink2,0x00200000,0,0,sbe.dll,10.00.14393.0206
+StreamBufferSink2,0x00200000,0,0,sbe.dll,10.00.14393.1066
 AVI Mux,0x00200000,1,0,qcap.dll,10.00.14393.0000
 Bandicam MPEG-1 Audio Decoder,0xff800001,1,1,bdfilters64.dll,1.00.0005.0017
-Line 21 Decoder 2,0x00600002,1,1,quartz.dll,10.00.14393.0000
-File Source (Async.),0x00400000,0,1,quartz.dll,10.00.14393.0000
-File Source (URL),0x00400000,0,1,quartz.dll,10.00.14393.0000
+Line 21 Decoder 2,0x00600002,1,1,quartz.dll,10.00.14393.1066
+File Source (Async.),0x00400000,0,1,quartz.dll,10.00.14393.1066
+File Source (URL),0x00400000,0,1,quartz.dll,10.00.14393.1066
 Infinite Pin Tee Filter,0x00200000,1,1,qcap.dll,10.00.14393.0000
-Enhanced Video Renderer,0x00200000,1,0,evr.dll,10.00.14393.0187
+Enhanced Video Renderer,0x00200000,1,0,evr.dll,10.00.14393.0953
 BDA MPEG2 Transport Information Filter,0x00200000,2,0,psisrndr.ax,10.00.14393.0000
-MPEG Video Decoder,0x40000001,1,1,quartz.dll,10.00.14393.0000
+MPEG Video Decoder,0x40000001,1,1,quartz.dll,10.00.14393.1066
 
 WDM Streaming Tee/Splitter Devices:
 Tee/Sink-to-Sink 변환기,0x00200000,1,1,ksproxy.ax,10.00.14393.0000
@@ -564,31 +567,31 @@ WMVideo8 Encoder DMO,0x00600800,1,1,wmvxencd.dll,10.00.14393.0000
 WMVideo9 Encoder DMO,0x00600800,1,1,wmvencod.dll,10.00.14393.0000
 MSScreen 9 encoder DMO,0x00600800,1,1,wmvsencd.dll,10.00.14393.0000
 DV Video Encoder,0x00200000,0,0,qdv.dll,10.00.14393.0000
-MJPEG Compressor,0x00200000,0,0,quartz.dll,10.00.14393.0000
+MJPEG Compressor,0x00200000,0,0,quartz.dll,10.00.14393.1066
 
 Audio Compressors:
 WM Speech Encoder DMO,0x00600800,1,1,WMSPDMOE.DLL,10.00.14393.0000
 WMAudio Encoder DMO,0x00600800,1,1,WMADMOE.DLL,10.00.14393.0000
-IMA ADPCM,0x00200000,1,1,quartz.dll,10.00.14393.0000
-PCM,0x00200000,1,1,quartz.dll,10.00.14393.0000
-Microsoft ADPCM,0x00200000,1,1,quartz.dll,10.00.14393.0000
-GSM 6.10,0x00200000,1,1,quartz.dll,10.00.14393.0000
-CCITT A-Law,0x00200000,1,1,quartz.dll,10.00.14393.0000
-CCITT u-Law,0x00200000,1,1,quartz.dll,10.00.14393.0000
-MP2,0x00200000,1,1,quartz.dll,10.00.14393.0000
-MPEG Layer-3,0x00200000,1,1,quartz.dll,10.00.14393.0000
+IMA ADPCM,0x00200000,1,1,quartz.dll,10.00.14393.1066
+PCM,0x00200000,1,1,quartz.dll,10.00.14393.1066
+Microsoft ADPCM,0x00200000,1,1,quartz.dll,10.00.14393.1066
+GSM 6.10,0x00200000,1,1,quartz.dll,10.00.14393.1066
+CCITT A-Law,0x00200000,1,1,quartz.dll,10.00.14393.1066
+CCITT u-Law,0x00200000,1,1,quartz.dll,10.00.14393.1066
+MP2,0x00200000,1,1,quartz.dll,10.00.14393.1066
+MPEG Layer-3,0x00200000,1,1,quartz.dll,10.00.14393.1066
 
 Audio Capture Sources:
 마이크(2- High Definition Audio 장치),0x00200000,0,0,qcap.dll,10.00.14393.0000
 
 PBDA CP Filters:
-PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.14393.0351
-PBDA ETFilter,0x00200000,0,0,CPFilters.dll,10.00.14393.0351
-PBDA PTFilter,0x00200000,0,0,CPFilters.dll,10.00.14393.0351
+PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.14393.1198
+PBDA ETFilter,0x00200000,0,0,CPFilters.dll,10.00.14393.1198
+PBDA PTFilter,0x00200000,0,0,CPFilters.dll,10.00.14393.1198
 
 Midi Renderers:
-Default MidiOut Device,0x00800000,1,0,quartz.dll,10.00.14393.0000
-Microsoft GS Wavetable Synth,0x00200000,1,0,quartz.dll,10.00.14393.0000
+Default MidiOut Device,0x00800000,1,0,quartz.dll,10.00.14393.1066
+Microsoft GS Wavetable Synth,0x00200000,1,0,quartz.dll,10.00.14393.1066
 
 WDM Streaming Capture Devices:
 HD Audio 마이크,0x00200000,1,1,ksproxy.ax,10.00.14393.0000
@@ -620,10 +623,10 @@ WDM Streaming Communication Transforms:
 Tee/Sink-to-Sink 변환기,0x00200000,1,1,ksproxy.ax,10.00.14393.0000
 
 Audio Renderers:
-헤드폰(2- High Definition Audio 장치),0x00200000,1,0,quartz.dll,10.00.14393.0000
-Default DirectSound Device,0x00800000,1,0,quartz.dll,10.00.14393.0000
-Default WaveOut Device,0x00200000,1,0,quartz.dll,10.00.14393.0000
-DirectSound: 헤드폰(2- High Definition Audio 장치),0x00200000,1,0,quartz.dll,10.00.14393.0000
+헤드폰(2- High Definition Audio 장치),0x00200000,1,0,quartz.dll,10.00.14393.1066
+Default DirectSound Device,0x00800000,1,0,quartz.dll,10.00.14393.1066
+Default WaveOut Device,0x00200000,1,0,quartz.dll,10.00.14393.1066
+DirectSound: 헤드폰(2- High Definition Audio 장치),0x00200000,1,0,quartz.dll,10.00.14393.1066
 
 
 ----------------------------
@@ -697,23 +700,23 @@ Media Foundation Transforms
 
 Video Decoders:
   NVIDIA MJPEG Video Decoder MFT, {70F36578-2741-454F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpeg.dll, 21.21.0013.7653
-  Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 10.00.14393.0594
+  Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 10.00.14393.0953
   DV Decoder MFT, {404A6DE5-D4D6-4260-9BC7-5A6CBD882432}, 0x1, mfdvdec.dll, 10.00.14393.0000
-  Microsoft H265 Video Decoder MFT, {420A51A3-D605-430C-B4FC-45274FA6C562}, 0x1, hevcdecoder.dll, 10.00.14393.0479
+  Microsoft H265 Video Decoder MFT, {420A51A3-D605-430C-B4FC-45274FA6C562}, 0x1, hevcdecoder.dll, 10.00.14393.0953
   Mpeg4s Decoder MFT, CLSID_CMpeg4sDecMFT, 0x1, mp4sdecd.dll, 10.00.14393.0000
-  Microsoft H264 Video Decoder MFT, CLSID_CMSH264DecoderMFT, 0x1, msmpeg2vdec.dll, 10.00.14393.0594
+  Microsoft H264 Video Decoder MFT, CLSID_CMSH264DecoderMFT, 0x1, msmpeg2vdec.dll, 10.00.14393.0953
   WMV Screen decoder MFT, CLSID_CMSSCDecMediaObject, 0x1, wmvsdecd.dll, 10.00.14393.0000
-  WMVideo Decoder MFT, CLSID_CWMVDecMediaObject, 0x1, wmvdecod.dll, 10.00.14393.0000
-  MJPEG Decoder MFT, {CB17E772-E1CC-4633-8450-5617AF577905}, 0x1, mfmjpegdec.dll, 10.00.14393.0000
+  WMVideo Decoder MFT, CLSID_CWMVDecMediaObject, 0x1, wmvdecod.dll, 10.00.14393.0953
+  MJPEG Decoder MFT, {CB17E772-E1CC-4633-8450-5617AF577905}, 0x1, mfmjpegdec.dll, 10.00.14393.1066
   Mpeg43 Decoder MFT, CLSID_CMpeg43DecMediaObject, 0x1, mp43decd.dll, 10.00.14393.0000
-  Microsoft WebM MF VP8 Decoder Transform, {E3AAF548-C9A4-4C6E-234D-5ADA374B0000}, 0x1, MSVP9DEC.dll, 10.00.14393.0693
+  Microsoft WebM MF VP8 Decoder Transform, {E3AAF548-C9A4-4C6E-234D-5ADA374B0000}, 0x1, MSVP9DEC.dll, 10.00.14393.1066
   Mpeg4 Decoder MFT, CLSID_CMpeg4DecMediaObject, 0x1, mpg4decd.dll, 10.00.14393.0000
 Video Encoders:
   NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264.dll, 21.21.0013.7653
   NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevc.dll, 21.21.0013.7653
   H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 10.00.14393.0000
   WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 10.00.14393.0000
-  Microsoft MF VPX Encoder Transform, {AEB6C755-2546-4881-82CC-E15AE5EBFF3D}, 0x1, MSVPXENC.dll, 10.00.14393.0693
+  Microsoft MF VPX Encoder Transform, {AEB6C755-2546-4881-82CC-E15AE5EBFF3D}, 0x1, MSVPXENC.dll, 10.00.14393.0953
   H263 Encoder MFT, {BC47FCFE-98A0-4F27-BB07-698AF24F2B38}, 0x1, mfh263enc.dll, 10.00.14393.0000
   WMVideo9 Encoder MFT, CLSID_CWMV9EncMediaObject, 0x1, wmvencod.dll, 10.00.14393.0000
   Microsoft MPEG-2 Video Encoder MFT, {E6335F02-80B7-4DC4-ADFA-DFE7210D20D5}, 0x2, msmpeg2enc.dll, 10.00.14393.0000
@@ -731,23 +734,23 @@ Audio Decoders:
   MS AMRNB Decoder MFT, {265011AE-5481-4F77-A295-ABB6FFE8D63E}, 0x1, MSAMRNBDecoder.dll, 10.00.14393.0000
   WMAudio Decoder MFT, CLSID_CWMADecMediaObject, 0x1, WMADMOD.DLL, 10.00.14393.0000
   Microsoft AAC Audio Decoder MFT, CLSID_CMSAACDecMFT, 0x1, MSAudDecMFT.dll, 10.00.14393.0206
-  A-law Wrapper MFT, {36CB6E0C-78C1-42B2-9943-846262F31786}, 0x1, mfcore.dll, 10.00.14393.0693
-  GSM ACM Wrapper MFT, {4A76B469-7B66-4DD4-BA2D-DDF244C766DC}, 0x1, mfcore.dll, 10.00.14393.0693
+  A-law Wrapper MFT, {36CB6E0C-78C1-42B2-9943-846262F31786}, 0x1, mfcore.dll, 10.00.14393.1198
+  GSM ACM Wrapper MFT, {4A76B469-7B66-4DD4-BA2D-DDF244C766DC}, 0x1, mfcore.dll, 10.00.14393.1198
   WMAPro over S/PDIF MFT, CLSID_CWMAudioSpdTxDMO, 0x1, WMADMOD.DLL, 10.00.14393.0000
   Microsoft Opus Audio Decoder MFT, {63E17C10-2D43-4C42-8FE3-8D8B63E46A6A}, 0x1, MSOpusDecoder.dll, 10.00.14393.0000
   Microsoft FLAC Audio Decoder MFT, {6B0B3E6B-A2C5-4514-8055-AFE8A95242D9}, 0x1, MSFlacDecoder.dll, 10.00.14393.0000
   Microsoft MPEG Audio Decoder MFT, {70707B39-B2CA-4015-ABEA-F8447D22D88B}, 0x1, MSAudDecMFT.dll, 10.00.14393.0206
   WMSpeech Decoder DMO, CLSID_CWMSPDecMediaObject, 0x1, WMSPDMOD.DLL, 10.00.14393.0000
-  G711 Wrapper MFT, {92B66080-5E2D-449E-90C4-C41F268E5514}, 0x1, mfcore.dll, 10.00.14393.0693
-  IMA ADPCM ACM Wrapper MFT, {A16E1BFF-A80D-48AD-AECD-A35C005685FE}, 0x1, mfcore.dll, 10.00.14393.0693
+  G711 Wrapper MFT, {92B66080-5E2D-449E-90C4-C41F268E5514}, 0x1, mfcore.dll, 10.00.14393.1198
+  IMA ADPCM ACM Wrapper MFT, {A16E1BFF-A80D-48AD-AECD-A35C005685FE}, 0x1, mfcore.dll, 10.00.14393.1198
   MP3 Decoder MFT, CLSID_CMP3DecMediaObject, 0x1, mp3dmod.dll, 10.00.14393.0000
   Microsoft ALAC Audio Decoder MFT, {C0CD7D12-31FC-4BBC-B363-7322EE3E1879}, 0x1, MSAlacDecoder.dll, 10.00.14393.0000
-  ADPCM ACM Wrapper MFT, {CA34FE0A-5722-43AD-AF23-05F7650257DD}, 0x1, mfcore.dll, 10.00.14393.0693
+  ADPCM ACM Wrapper MFT, {CA34FE0A-5722-43AD-AF23-05F7650257DD}, 0x1, mfcore.dll, 10.00.14393.1198
   Dolby TrueHD IEC-61937 converter MFT, {CF5EEEDF-0E92-4B3B-A161-BD0FFE545E4B}, 0x1, mfaudiocnv.dll, 10.00.14393.0479
   DTS IEC-61937 converter MFT, {D035E24C-C877-42D7-A795-2A8A339B472F}, 0x1, mfaudiocnv.dll, 10.00.14393.0479
 Audio Encoders:
   LPCM DVD-Audio MFT, {068A8476-9229-4CC0-9D49-2FC699DCD30A}, 0x1, mfaudiocnv.dll, 10.00.14393.0479
-  MP3 Encoder ACM Wrapper MFT, {11103421-354C-4CCA-A7A3-1AFF9A5B6701}, 0x1, mfcore.dll, 10.00.14393.0693
+  MP3 Encoder ACM Wrapper MFT, {11103421-354C-4CCA-A7A3-1AFF9A5B6701}, 0x1, mfcore.dll, 10.00.14393.1198
   Microsoft FLAC Audio Encoder MFT, {128509E9-C44E-45DC-95E9-C255B8F466A6}, 0x1, MSFlacEncoder.dll, 10.00.14393.0000
   WM Speech Encoder DMO, CLSID_CWMSPEncMediaObject2, 0x1, WMSPDMOE.DLL, 10.00.14393.0000
   MS AMRNB Encoder MFT, {2FAE8AFE-04A3-423A-A814-85DB454712B0}, 0x1, MSAMRNBEncoder.dll, 10.00.14393.0000
@@ -760,9 +763,9 @@ Audio Effects:
   AEC, CLSID_CWMAudioAEC, 0x1, mfwmaaec.dll, 10.00.14393.0000
   Resampler MFT, CLSID_CResamplerMediaObject, 0x1, resampledmo.dll, 10.00.14393.0000
 Multiplexers:
-  Microsoft MPEG2 Multiplexer MFT, {AB300F71-01AB-46D2-AB6C-64906CB03258}, 0x2, mfmpeg2srcsnk.dll, 10.00.14393.0693
+  Microsoft MPEG2 Multiplexer MFT, {AB300F71-01AB-46D2-AB6C-64906CB03258}, 0x2, mfmpeg2srcsnk.dll, 10.00.14393.1198
 Others:
-  Microsoft H264 Video Remux (MPEG2TSToMP4) MFT, {05A47EBB-8BF0-4CBF-AD2F-3B71D75866F5}, 0x1, msmpeg2vdec.dll, 10.00.14393.0594
+  Microsoft H264 Video Remux (MPEG2TSToMP4) MFT, {05A47EBB-8BF0-4CBF-AD2F-3B71D75866F5}, 0x1, msmpeg2vdec.dll, 10.00.14393.0953
 
 
 --------------------------------------------
@@ -1025,223 +1028,193 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-오류 버킷 , 유형 0
-이벤트 이름: LiveKernelEvent
+오류 버킷 127854267295, 유형 5
+이벤트 이름: MpTelemetry
 응답: 사용할 수 없음
 Cab ID: 0
 
 문제 서명:
-P1: ab
-P2: 4
-P3: 350
-P4: 360
-P5: 600000005
-P6: 10_0_14393
-P7: 0_0
-P8: 768_1
+P1: Windows Defender (77BDAF73-B396-481F-9042-AD358843EC24)
+P2: 4.10.14393.1066
+P3: TimeOut
+P4: 1.1.13701.0
+P5: fixed
+P6: 4 / 2049+
+P7: 5 / not boot
+P8: 
 P9: 
 P10: 
 
 첨부 파일:
-\\?\C:\Windows\LiveKernelReports\win32k.sys\win32k.sys-20170309-0015.dmp
-\\?\C:\Windows\Temp\WER-451225250-0.sysdata.xml
-\\?\C:\Windows\LiveKernelReports\win32k.sys-20170309-0015.dmp
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2FC9.tmp.WERInternalMetadata.xml
+\\?\C:\Windows\TEMP\MPInstrumentation\client_manifest.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERAF90.tmp.WERInternalMetadata.xml
 
 이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_ab_ffd418a25f9c3f393d622a504283f9c9f25b8988_00000000_cab_00c7eda1
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Windows Defender_eac7f2591494d781d07481d0bbf37d14ddce19e2_00000000_cab_3437afa0
 
 분석 기호: 
 해결 방법 재확인: 0
-보고서 ID: bac56c68-0462-11e7-ba11-7085c22a21b6
-보고서 상태: 8192
-해시된 패킷: 
+보고서 ID: 3517fe99-2cb6-11e7-ba13-7085c22a21b6
+보고서 상태: 0
+해시된 패킷: a63541caba2a0fdf8c6587f04c18f5c4
 +++ WER1 +++:
-오류 버킷 , 유형 0
-이벤트 이름: LiveKernelEvent
+오류 버킷 129419288322, 유형 5
+이벤트 이름: RADAR_PRE_LEAK_64
 응답: 사용할 수 없음
 Cab ID: 0
 
 문제 서명:
-P1: ab
-P2: 4
-P3: 350
-P4: 360
-P5: 600000005
-P6: 10_0_14393
-P7: 0_0
-P8: 768_1
-P9: 
-P10: 
-
-첨부 파일:
-\\?\C:\Windows\LiveKernelReports\win32k.sys\win32k.sys-20170309-0015.dmp
-\\?\C:\Windows\Temp\WER-451225250-0.sysdata.xml
-\\?\C:\Windows\LiveKernelReports\win32k.sys-20170309-0015.dmp
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2FC9.tmp.WERInternalMetadata.xml
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\Kernel_ab_ffd418a25f9c3f393d622a504283f9c9f25b8988_00000000_cab_3da92fd9
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: bac56c68-0462-11e7-ba11-7085c22a21b6
-보고서 상태: 2
-해시된 패킷: 
-+++ WER2 +++:
-오류 버킷 , 유형 0
-이벤트 이름: LiveKernelEvent
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: ab
-P2: 4
-P3: 350
-P4: 360
-P5: 600000005
-P6: 10_0_14393
-P7: 0_0
-P8: 768_1
-P9: 
-P10: 
-
-첨부 파일:
-\\?\C:\Windows\LiveKernelReports\win32k.sys\win32k.sys-20170309-0015.dmp
-\\?\C:\Windows\Temp\WER-451225250-0.sysdata.xml
-\\?\C:\Windows\LiveKernelReports\win32k.sys-20170309-0015.dmp
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2FC9.tmp.WERInternalMetadata.xml
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\Kernel_ab_ffd418a25f9c3f393d622a504283f9c9f25b8988_00000000_cab_3da92fd9
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: bac56c68-0462-11e7-ba11-7085c22a21b6
-보고서 상태: 4
-해시된 패킷: 
-+++ WER3 +++:
-오류 버킷 , 유형 0
-이벤트 이름: PnPRequestAdditionalSoftware
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: x64
-P2: HID\VID_04D9&PID_A135&REV_0304&MI_01&Col02
-P3: 10.0.0.0
-P4: 0412
-P5: input.inf
-P6: *
+P1: EpicGamesLauncher.exe
+P2: 2.13.1.0
+P3: 10.0.14393.2.0.0
+P4: 
+P5: 
+P6: 
 P7: 
 P8: 
 P9: 
 P10: 
 
 첨부 파일:
+\\?\C:\Users\didwo\AppData\Local\Temp\RDR908.tmp\empty.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER938.tmp.WERInternalMetadata.xml
 
 이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_4b1e7ad15a86d4bd24711802b55576cc1d8a21a_00000000_1c9d38fc
+
 
 분석 기호: 
 해결 방법 재확인: 0
-보고서 ID: 5fd9f9aa-f2aa-11e6-ba10-7085c22a21b6
-보고서 상태: 2
-해시된 패킷: 
+보고서 ID: e7230e54-34e5-11e7-ba13-7085c22a21b6
+보고서 상태: 0
+해시된 패킷: ebdd4dd7d8d18196523a92567b6b747f
++++ WER2 +++:
+오류 버킷 108904384960, 유형 1
+이벤트 이름: APPCRASH
+응답: 사용할 수 없음
+Cab ID: 0
+
+문제 서명:
+P1: multicodecopen.exe
+P2: 2017.5.8.1
+P3: 590fdfc2
+P4: KERNELBASE.dll
+P5: 10.0.14393.1066
+P6: 58d9f07f
+P7: 0eedfade
+P8: 000da932
+P9: 
+P10: 
+
+첨부 파일:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERC353.tmp.WERInternalMetadata.xml
+
+이 파일은 다음에서 사용할 수 있습니다.
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_multicodecopen.e_6c7f29b72fce1d7d68e3692d1279d63d2b9d_da520e47_43bdcb42
+
+분석 기호: 
+해결 방법 재확인: 0
+보고서 ID: 5aaa65ae-3dc0-474b-b076-f1d3fd654828
+보고서 상태: 0
+해시된 패킷: 2d6fa1becff8210d8dce313eabe86e5f
++++ WER3 +++:
+오류 버킷 129174948939, 유형 5
+이벤트 이름: RADAR_PRE_LEAK_WOW64
+응답: 사용할 수 없음
+Cab ID: 0
+
+문제 서명:
+P1: suddenattack.exe
+P2: 1.0.0.1
+P3: 10.0.14393.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+첨부 파일:
+\\?\C:\Users\didwo\AppData\Local\Temp\RDR8FAC.tmp\empty.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER8FCC.tmp.WERInternalMetadata.xml
+
+이 파일은 다음에서 사용할 수 있습니다.
+
+
+분석 기호: 
+해결 방법 재확인: 0
+보고서 ID: f38f748a-2cb6-11e7-ba13-7085c22a21b6
+보고서 상태: 0
+해시된 패킷: b4ea5d1d0488b773b4b123a959560992
 +++ WER4 +++:
 오류 버킷 , 유형 0
-이벤트 이름: PnPGenericDriverFound
+이벤트 이름: MpTelemetry
 응답: 사용할 수 없음
 Cab ID: 0
 
 문제 서명:
-P1: x64
-P2: HID\VID_04D9&PID_A135&REV_0304&MI_01&Col02
-P3: 
-P4: 
-P5: 
-P6: 
-P7: 
+P1: Windows Defender (77BDAF73-B396-481F-9042-AD358843EC24)
+P2: 4.10.14393.1066
+P3: TimeOut
+P4: 1.1.13701.0
+P5: fixed
+P6: 4 / 2049+
+P7: 5 / not boot
 P8: 
 P9: 
 P10: 
 
 첨부 파일:
+\\?\C:\Windows\TEMP\MPInstrumentation\client_manifest.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERAF90.tmp.WERInternalMetadata.xml
 
 이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_1211fb28de7418c2724a2d49f587431525faa8a1_00000000_1c9d38dc
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Windows Defender_eac7f2591494d781d07481d0bbf37d14ddce19e2_00000000_cab_3437afa0
 
 분석 기호: 
 해결 방법 재확인: 0
-보고서 ID: 5fd9f9a9-f2aa-11e6-ba10-7085c22a21b6
-보고서 상태: 2
+보고서 ID: 3517fe99-2cb6-11e7-ba13-7085c22a21b6
+보고서 상태: 4
 해시된 패킷: 
 +++ WER5 +++:
-오류 버킷 , 유형 0
-이벤트 이름: PnPGenericDriverFound
+오류 버킷 108837719674, 유형 1
+이벤트 이름: APPCRASH
 응답: 사용할 수 없음
 Cab ID: 0
 
 문제 서명:
-P1: x64
-P2: HID\VID_04D9&PID_A135&REV_0304&MI_01&Col03
-P3: 
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
+P1: ToDiskDown.exe
+P2: 1.0.3.8
+P3: 58e5ad80
+P4: MFC42.DLL
+P5: 6.6.8063.0
+P6: 57898e13
+P7: c0000005
+P8: 000265a8
 P9: 
 P10: 
 
 첨부 파일:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER52E2.tmp.WERInternalMetadata.xml
 
 이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_dc8488f362753b162cfdf91b2342d8b87f23cf2c_00000000_1c9d38cd
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_ToDiskDown.exe_a3f96ea59a867870f8c8b0f0539f1f6216f42b_11104699_02d65db0
 
 분석 기호: 
 해결 방법 재확인: 0
-보고서 ID: 5fd9f9a8-f2aa-11e6-ba10-7085c22a21b6
-보고서 상태: 2
-해시된 패킷: 
+보고서 ID: c3e13faa-4993-483a-9fa2-66484516d00e
+보고서 상태: 0
+해시된 패킷: 68419f8cb3508fd0e358f70e5f02e784
 +++ WER6 +++:
-오류 버킷 , 유형 0
-이벤트 이름: PnPRequestAdditionalSoftware
+오류 버킷 129329908223, 유형 5
+이벤트 이름: RADAR_PRE_LEAK_64
 응답: 사용할 수 없음
 Cab ID: 0
 
 문제 서명:
-P1: x64
-P2: HID\VID_04D9&PID_A135&REV_0304&MI_01&Col04
-P3: 10.0.0.0
-P4: 0412
-P5: input.inf
-P6: *
-P7: 
-P8: 
-P9: 
-P10: 
-
-첨부 파일:
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_9f4722d428707d7d99c22de47e3bc728eee4acf7_00000000_1c9d38ae
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 5fd9f9a7-f2aa-11e6-ba10-7085c22a21b6
-보고서 상태: 2
-해시된 패킷: 
-+++ WER7 +++:
-오류 버킷 , 유형 0
-이벤트 이름: PnPGenericDriverFound
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: x64
-P2: HID\VID_04D9&PID_A135&REV_0304&MI_01&Col04
-P3: 
+P1: UE4Editor.exe
+P2: 4.14.3.0
+P3: 10.0.14393.2.0.0
 P4: 
 P5: 
 P6: 
@@ -1251,53 +1224,91 @@ P9:
 P10: 
 
 첨부 파일:
+\\?\C:\Users\didwo\AppData\Local\Temp\RDR5E36.tmp\empty.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER5E66.tmp.WERInternalMetadata.xml
 
 이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_fcaf2c4640321dec80779fbec0f7fa79f3136dc_00000000_1c9d389e
+
 
 분석 기호: 
 해결 방법 재확인: 0
-보고서 ID: 5fd9f9a6-f2aa-11e6-ba10-7085c22a21b6
-보고서 상태: 2
-해시된 패킷: 
+보고서 ID: 5137cbc3-22c4-11e7-ba12-7085c22a21b6
+보고서 상태: 0
+해시된 패킷: 3da43c69556f396ace81299309072f39
++++ WER7 +++:
+오류 버킷 120729938992, 유형 4
+이벤트 이름: APPCRASH
+응답: 사용할 수 없음
+Cab ID: 0
+
+문제 서명:
+P1: MRT.exe
+P2: 5.47.13703.0
+P3: 58dec9f9
+P4: combase.dll
+P5: 10.0.14393.953
+P6: 58ba5954
+P7: c0000005
+P8: 00000000000b071c
+P9: 
+P10: 
+
+첨부 파일:
+\\?\C:\Windows\Temp\WER4621.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER4632.tmp.WERInternalMetadata.xml
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_MRT.exe_b79d3b58fd8af2c4e2e8a0cfd4361a779972fa49_4e9851fc_cab_b2d1463f\memory.hdmp
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_MRT.exe_b79d3b58fd8af2c4e2e8a0cfd4361a779972fa49_4e9851fc_cab_b2d1463f\triagedump.dmp
+
+이 파일은 다음에서 사용할 수 있습니다.
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_MRT.exe_b79d3b58fd8af2c4e2e8a0cfd4361a779972fa49_4e9851fc_9a915c67
+
+분석 기호: 
+해결 방법 재확인: 0
+보고서 ID: 183a44ee-c01a-417a-a17f-bdab2871c54f
+보고서 상태: 0
+해시된 패킷: 4f6e780e22d086572be9a79287c25949
 +++ WER8 +++:
 오류 버킷 , 유형 0
-이벤트 이름: PnPRequestAdditionalSoftware
+이벤트 이름: APPCRASH
 응답: 사용할 수 없음
 Cab ID: 0
 
 문제 서명:
-P1: x64
-P2: HID\VID_04D9&PID_A135&REV_0304&MI_02
-P3: 10.0.0.0
-P4: 0412
-P5: input.inf
-P6: *
-P7: 
-P8: 
+P1: MRT.exe
+P2: 5.47.13703.0
+P3: 58dec9f9
+P4: combase.dll
+P5: 10.0.14393.953
+P6: 58ba5954
+P7: c0000005
+P8: 00000000000b071c
 P9: 
 P10: 
 
 첨부 파일:
+\\?\C:\Windows\Temp\WER4621.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER4632.tmp.WERInternalMetadata.xml
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_MRT.exe_b79d3b58fd8af2c4e2e8a0cfd4361a779972fa49_4e9851fc_cab_b2d1463f\memory.hdmp
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_MRT.exe_b79d3b58fd8af2c4e2e8a0cfd4361a779972fa49_4e9851fc_cab_b2d1463f\triagedump.dmp
 
 이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_a92acd4b0957881a865d62cf590e7d63779b4c1_00000000_1c9d387f
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_MRT.exe_b79d3b58fd8af2c4e2e8a0cfd4361a779972fa49_4e9851fc_cab_b2d1463f
 
 분석 기호: 
 해결 방법 재확인: 0
-보고서 ID: 5fd9f9a5-f2aa-11e6-ba10-7085c22a21b6
-보고서 상태: 2
+보고서 ID: 183a44ee-c01a-417a-a17f-bdab2871c54f
+보고서 상태: 4
 해시된 패킷: 
 +++ WER9 +++:
-오류 버킷 , 유형 0
-이벤트 이름: PnPGenericDriverFound
+오류 버킷 129382418422, 유형 5
+이벤트 이름: RADAR_PRE_LEAK_WOW64
 응답: 사용할 수 없음
 Cab ID: 0
 
 문제 서명:
-P1: x64
-P2: HID\VID_04D9&PID_A135&REV_0304&MI_02
-P3: 
+P1: iexplore.exe
+P2: 11.0.14393.953
+P3: 10.0.14393.2.0.0
 P4: 
 P5: 
 P6: 
@@ -1307,12 +1318,14 @@ P9:
 P10: 
 
 첨부 파일:
+\\?\C:\Users\didwo\AppData\Local\Temp\RDRA119.tmp\empty.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERA149.tmp.WERInternalMetadata.xml
 
 이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_da92a78e11cffa92a36afc6defa0c29052e62c32_00000000_1c9d386f
+
 
 분석 기호: 
 해결 방법 재확인: 0
-보고서 ID: 5fd9f9a4-f2aa-11e6-ba10-7085c22a21b6
-보고서 상태: 2
-해시된 패킷: 
+보고서 ID: c6ccbdf1-1e0c-11e7-ba12-7085c22a21b6
+보고서 상태: 0
+해시된 패킷: f8fd38572f313d615884d43dfdccd175
