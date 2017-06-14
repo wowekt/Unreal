@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 5/13/2017, 02:12:14
+      Time of this report: 6/15/2017, 00:58:28
              Machine name: DESKTOP-CEH7678
                Machine Id: {6767A113-B79F-4D4A-A7F6-12D21578A804}
          Operating System: Windows 10 Home 64-bit (10.0, Build 14393) (14393.rs1_release_sec.170427-1353)
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz (4 CPUs), ~3.3GHz
                    Memory: 16384MB RAM
       Available OS Memory: 16318MB RAM
-                Page File: 5694MB used, 12669MB available
+                Page File: 6585MB used, 11777MB available
               Windows Dir: C:\Windows
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -338,13 +338,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 158.6 GB
+ Free Space: 169.9 GB
 Total Space: 261.8 GB
 File System: NTFS
       Model: Crucial_CT275MX300SSD1
 
       Drive: D:
- Free Space: 895.9 GB
+ Free Space: 897.5 GB
 Total Space: 953.9 GB
 File System: NTFS
       Model: WDC WD10EZEX-08WN4A0
@@ -1028,6 +1028,274 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
+오류 버킷 129382418422, 유형 5
+이벤트 이름: RADAR_PRE_LEAK_WOW64
+응답: 사용할 수 없음
+Cab ID: 0
+
+문제 서명:
+P1: iexplore.exe
+P2: 11.0.14393.953
+P3: 10.0.14393.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+첨부 파일:
+\\?\C:\Users\didwo\AppData\Local\Temp\RDR84CB.tmp\empty.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER84FB.tmp.WERInternalMetadata.xml
+
+이 파일은 다음에서 사용할 수 있습니다.
+
+
+분석 기호: 
+해결 방법 재확인: 0
+보고서 ID: 8b26f427-4f93-11e7-ba14-7085c22a21b6
+보고서 상태: 0
+해시된 패킷: f8fd38572f313d615884d43dfdccd175
++++ WER1 +++:
+오류 버킷 127742243059, 유형 5
+이벤트 이름: SkyDriveClientError
+응답: 사용할 수 없음
+Cab ID: 0
+
+문제 서명:
+P1: OneDriveSetup.exe
+P2: 17.3.6743.1212
+P3: OneDriveSetup.exe
+P4: 17.3.6743.1212
+P5: 0x80040692
+P6: Installer
+P7: application.cpp
+P8: 161
+P9: 
+P10: 
+
+첨부 파일:
+\\?\C:\Users\didwo\AppData\Local\Microsoft\OneDrive\setup\logs\Update_2017-06-12_200835_3174-3588.log
+\\?\C:\Users\didwo\AppData\Local\Microsoft\OneDrive\setup\logs\Update_2017-06-12_012610_353c-16f0.log
+\\?\C:\Users\didwo\AppData\Local\Microsoft\OneDrive\setup\logs\Update_2017-06-10_002848_11cc-3380.log
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERD6D4.tmp.WERInternalMetadata.xml
+
+이 파일은 다음에서 사용할 수 있습니다.
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_OneDriveSetup.ex_2784e9272a94674726857b0ca955e26e945cd6_00000000_998bdd3d
+
+분석 기호: 
+해결 방법 재확인: 0
+보고서 ID: 66ba3a9a-4f6a-11e7-ba14-7085c22a21b6
+보고서 상태: 0
+해시된 패킷: 0ea4fa37dacf5595e193a5acdadbad28
++++ WER2 +++:
+오류 버킷 127742243059, 유형 5
+이벤트 이름: SkyDriveClientError
+응답: 사용할 수 없음
+Cab ID: 0
+
+문제 서명:
+P1: OneDriveSetup.exe
+P2: 17.3.6743.1212
+P3: OneDriveSetup.exe
+P4: 17.3.6743.1212
+P5: 0x80040692
+P6: Installer
+P7: application.cpp
+P8: 161
+P9: 
+P10: 
+
+첨부 파일:
+\\?\C:\Users\didwo\AppData\Local\Microsoft\OneDrive\setup\logs\Update_2017-06-12_200835_3174-3588.log
+\\?\C:\Users\didwo\AppData\Local\Microsoft\OneDrive\setup\logs\Update_2017-06-12_012610_353c-16f0.log
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERD3F6.tmp.WERInternalMetadata.xml
+
+이 파일은 다음에서 사용할 수 있습니다.
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_OneDriveSetup.ex_2784e9272a94674726857b0ca955e26e945cd6_00000000_883fdb49
+
+분석 기호: 
+해결 방법 재확인: 0
+보고서 ID: 66356f94-4f6a-11e7-ba14-7085c22a21b6
+보고서 상태: 0
+해시된 패킷: 0ea4fa37dacf5595e193a5acdadbad28
++++ WER3 +++:
+오류 버킷 , 유형 0
+이벤트 이름: SkyDriveClientError
+응답: 사용할 수 없음
+Cab ID: 0
+
+문제 서명:
+P1: OneDriveSetup.exe
+P2: 17.3.6743.1212
+P3: OneDriveSetup.exe
+P4: 17.3.6743.1212
+P5: 0x80040692
+P6: Installer
+P7: application.cpp
+P8: 161
+P9: 
+P10: 
+
+첨부 파일:
+
+이 파일은 다음에서 사용할 수 있습니다.
+
+
+분석 기호: 
+해결 방법 재확인: 0
+보고서 ID: 66ba3a9a-4f6a-11e7-ba14-7085c22a21b6
+보고서 상태: 262144
+해시된 패킷: 
++++ WER4 +++:
+오류 버킷 , 유형 0
+이벤트 이름: SkyDriveClientError
+응답: 사용할 수 없음
+Cab ID: 0
+
+문제 서명:
+P1: OneDriveSetup.exe
+P2: 17.3.6743.1212
+P3: OneDriveSetup.exe
+P4: 17.3.6743.1212
+P5: 0x80040692
+P6: Installer
+P7: application.cpp
+P8: 161
+P9: 
+P10: 
+
+첨부 파일:
+
+이 파일은 다음에서 사용할 수 있습니다.
+
+
+분석 기호: 
+해결 방법 재확인: 0
+보고서 ID: 66356f94-4f6a-11e7-ba14-7085c22a21b6
+보고서 상태: 262144
+해시된 패킷: 
++++ WER5 +++:
+오류 버킷 127882203046, 유형 5
+이벤트 이름: MpTelemetry
+응답: 사용할 수 없음
+Cab ID: 0
+
+문제 서명:
+P1: Windows Defender (77BDAF73-B396-481F-9042-AD358843EC24)
+P2: 4.10.14393.1198
+P3: TimeOut
+P4: 1.1.13704.0
+P5: fixed
+P6: 4 / 2049+
+P7: 5 / not boot
+P8: 
+P9: 
+P10: 
+
+첨부 파일:
+\\?\C:\Windows\TEMP\MPInstrumentation\client_manifest.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERD6E7.tmp.WERInternalMetadata.xml
+
+이 파일은 다음에서 사용할 수 있습니다.
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Windows Defender_454bfc2d1e52416814729e506e82a5bbabb6741_00000000_cab_33ccd6f7
+
+분석 기호: 
+해결 방법 재확인: 0
+보고서 ID: a8f0be35-3f0a-11e7-ba14-7085c22a21b6
+보고서 상태: 0
+해시된 패킷: 61bea68b411fb7687f2efd442c60e825
++++ WER6 +++:
+오류 버킷 , 유형 0
+이벤트 이름: MpTelemetry
+응답: 사용할 수 없음
+Cab ID: 0
+
+문제 서명:
+P1: Windows Defender (77BDAF73-B396-481F-9042-AD358843EC24)
+P2: 4.10.14393.1198
+P3: TimeOut
+P4: 1.1.13704.0
+P5: fixed
+P6: 4 / 2049+
+P7: 5 / not boot
+P8: 
+P9: 
+P10: 
+
+첨부 파일:
+\\?\C:\Windows\TEMP\MPInstrumentation\client_manifest.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERD6E7.tmp.WERInternalMetadata.xml
+
+이 파일은 다음에서 사용할 수 있습니다.
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Windows Defender_454bfc2d1e52416814729e506e82a5bbabb6741_00000000_cab_33ccd6f7
+
+분석 기호: 
+해결 방법 재확인: 0
+보고서 ID: a8f0be35-3f0a-11e7-ba14-7085c22a21b6
+보고서 상태: 4
+해시된 패킷: 
++++ WER7 +++:
+오류 버킷 129329908223, 유형 5
+이벤트 이름: RADAR_PRE_LEAK_64
+응답: 사용할 수 없음
+Cab ID: 0
+
+문제 서명:
+P1: UE4Editor.exe
+P2: 4.14.3.0
+P3: 10.0.14393.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+첨부 파일:
+\\?\C:\Users\didwo\AppData\Local\Temp\RDR64A0.tmp\empty.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER64D0.tmp.WERInternalMetadata.xml
+
+이 파일은 다음에서 사용할 수 있습니다.
+
+
+분석 기호: 
+해결 방법 재확인: 0
+보고서 ID: 38d511eb-3bf9-11e7-ba14-7085c22a21b6
+보고서 상태: 0
+해시된 패킷: 3da43c69556f396ace81299309072f39
++++ WER8 +++:
+오류 버킷 116313449555, 유형 5
+이벤트 이름: BEX64
+응답: 사용할 수 없음
+Cab ID: 0
+
+문제 서명:
+P1: UE4Editor.exe
+P2: 4.14.3.0
+P3: 586fbd3d
+P4: ucrtbase.dll
+P5: 10.0.14393.0
+P6: 578997b5
+P7: 000000000006ea1e
+P8: c0000409
+P9: 0000000000000007
+P10: 
+
+첨부 파일:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2DEA.tmp.WERInternalMetadata.xml
+
+이 파일은 다음에서 사용할 수 있습니다.
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_UE4Editor.exe_621e19b46c1bce97c4a45d19eb37c5c8e90a3b9_4a643fd1_2f023722
+
+분석 기호: 
+해결 방법 재확인: 0
+보고서 ID: da1c7bf1-8ece-47c2-9cde-c8afef528f52
+보고서 상태: 0
+해시된 패킷: 5fd57c2a0e51c3367879672c367d9956
++++ WER9 +++:
 오류 버킷 127854267295, 유형 5
 이벤트 이름: MpTelemetry
 응답: 사용할 수 없음
@@ -1057,275 +1325,3 @@ C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Windows Defender_ea
 보고서 ID: 3517fe99-2cb6-11e7-ba13-7085c22a21b6
 보고서 상태: 0
 해시된 패킷: a63541caba2a0fdf8c6587f04c18f5c4
-+++ WER1 +++:
-오류 버킷 129419288322, 유형 5
-이벤트 이름: RADAR_PRE_LEAK_64
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: EpicGamesLauncher.exe
-P2: 2.13.1.0
-P3: 10.0.14393.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-첨부 파일:
-\\?\C:\Users\didwo\AppData\Local\Temp\RDR908.tmp\empty.txt
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER938.tmp.WERInternalMetadata.xml
-
-이 파일은 다음에서 사용할 수 있습니다.
-
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: e7230e54-34e5-11e7-ba13-7085c22a21b6
-보고서 상태: 0
-해시된 패킷: ebdd4dd7d8d18196523a92567b6b747f
-+++ WER2 +++:
-오류 버킷 108904384960, 유형 1
-이벤트 이름: APPCRASH
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: multicodecopen.exe
-P2: 2017.5.8.1
-P3: 590fdfc2
-P4: KERNELBASE.dll
-P5: 10.0.14393.1066
-P6: 58d9f07f
-P7: 0eedfade
-P8: 000da932
-P9: 
-P10: 
-
-첨부 파일:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERC353.tmp.WERInternalMetadata.xml
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_multicodecopen.e_6c7f29b72fce1d7d68e3692d1279d63d2b9d_da520e47_43bdcb42
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 5aaa65ae-3dc0-474b-b076-f1d3fd654828
-보고서 상태: 0
-해시된 패킷: 2d6fa1becff8210d8dce313eabe86e5f
-+++ WER3 +++:
-오류 버킷 129174948939, 유형 5
-이벤트 이름: RADAR_PRE_LEAK_WOW64
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: suddenattack.exe
-P2: 1.0.0.1
-P3: 10.0.14393.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-첨부 파일:
-\\?\C:\Users\didwo\AppData\Local\Temp\RDR8FAC.tmp\empty.txt
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER8FCC.tmp.WERInternalMetadata.xml
-
-이 파일은 다음에서 사용할 수 있습니다.
-
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: f38f748a-2cb6-11e7-ba13-7085c22a21b6
-보고서 상태: 0
-해시된 패킷: b4ea5d1d0488b773b4b123a959560992
-+++ WER4 +++:
-오류 버킷 , 유형 0
-이벤트 이름: MpTelemetry
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: Windows Defender (77BDAF73-B396-481F-9042-AD358843EC24)
-P2: 4.10.14393.1066
-P3: TimeOut
-P4: 1.1.13701.0
-P5: fixed
-P6: 4 / 2049+
-P7: 5 / not boot
-P8: 
-P9: 
-P10: 
-
-첨부 파일:
-\\?\C:\Windows\TEMP\MPInstrumentation\client_manifest.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERAF90.tmp.WERInternalMetadata.xml
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Windows Defender_eac7f2591494d781d07481d0bbf37d14ddce19e2_00000000_cab_3437afa0
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 3517fe99-2cb6-11e7-ba13-7085c22a21b6
-보고서 상태: 4
-해시된 패킷: 
-+++ WER5 +++:
-오류 버킷 108837719674, 유형 1
-이벤트 이름: APPCRASH
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: ToDiskDown.exe
-P2: 1.0.3.8
-P3: 58e5ad80
-P4: MFC42.DLL
-P5: 6.6.8063.0
-P6: 57898e13
-P7: c0000005
-P8: 000265a8
-P9: 
-P10: 
-
-첨부 파일:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER52E2.tmp.WERInternalMetadata.xml
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_ToDiskDown.exe_a3f96ea59a867870f8c8b0f0539f1f6216f42b_11104699_02d65db0
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: c3e13faa-4993-483a-9fa2-66484516d00e
-보고서 상태: 0
-해시된 패킷: 68419f8cb3508fd0e358f70e5f02e784
-+++ WER6 +++:
-오류 버킷 129329908223, 유형 5
-이벤트 이름: RADAR_PRE_LEAK_64
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: UE4Editor.exe
-P2: 4.14.3.0
-P3: 10.0.14393.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-첨부 파일:
-\\?\C:\Users\didwo\AppData\Local\Temp\RDR5E36.tmp\empty.txt
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER5E66.tmp.WERInternalMetadata.xml
-
-이 파일은 다음에서 사용할 수 있습니다.
-
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 5137cbc3-22c4-11e7-ba12-7085c22a21b6
-보고서 상태: 0
-해시된 패킷: 3da43c69556f396ace81299309072f39
-+++ WER7 +++:
-오류 버킷 120729938992, 유형 4
-이벤트 이름: APPCRASH
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: MRT.exe
-P2: 5.47.13703.0
-P3: 58dec9f9
-P4: combase.dll
-P5: 10.0.14393.953
-P6: 58ba5954
-P7: c0000005
-P8: 00000000000b071c
-P9: 
-P10: 
-
-첨부 파일:
-\\?\C:\Windows\Temp\WER4621.tmp.appcompat.txt
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER4632.tmp.WERInternalMetadata.xml
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_MRT.exe_b79d3b58fd8af2c4e2e8a0cfd4361a779972fa49_4e9851fc_cab_b2d1463f\memory.hdmp
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_MRT.exe_b79d3b58fd8af2c4e2e8a0cfd4361a779972fa49_4e9851fc_cab_b2d1463f\triagedump.dmp
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_MRT.exe_b79d3b58fd8af2c4e2e8a0cfd4361a779972fa49_4e9851fc_9a915c67
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 183a44ee-c01a-417a-a17f-bdab2871c54f
-보고서 상태: 0
-해시된 패킷: 4f6e780e22d086572be9a79287c25949
-+++ WER8 +++:
-오류 버킷 , 유형 0
-이벤트 이름: APPCRASH
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: MRT.exe
-P2: 5.47.13703.0
-P3: 58dec9f9
-P4: combase.dll
-P5: 10.0.14393.953
-P6: 58ba5954
-P7: c0000005
-P8: 00000000000b071c
-P9: 
-P10: 
-
-첨부 파일:
-\\?\C:\Windows\Temp\WER4621.tmp.appcompat.txt
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER4632.tmp.WERInternalMetadata.xml
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_MRT.exe_b79d3b58fd8af2c4e2e8a0cfd4361a779972fa49_4e9851fc_cab_b2d1463f\memory.hdmp
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_MRT.exe_b79d3b58fd8af2c4e2e8a0cfd4361a779972fa49_4e9851fc_cab_b2d1463f\triagedump.dmp
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_MRT.exe_b79d3b58fd8af2c4e2e8a0cfd4361a779972fa49_4e9851fc_cab_b2d1463f
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 183a44ee-c01a-417a-a17f-bdab2871c54f
-보고서 상태: 4
-해시된 패킷: 
-+++ WER9 +++:
-오류 버킷 129382418422, 유형 5
-이벤트 이름: RADAR_PRE_LEAK_WOW64
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: iexplore.exe
-P2: 11.0.14393.953
-P3: 10.0.14393.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-첨부 파일:
-\\?\C:\Users\didwo\AppData\Local\Temp\RDRA119.tmp\empty.txt
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERA149.tmp.WERInternalMetadata.xml
-
-이 파일은 다음에서 사용할 수 있습니다.
-
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: c6ccbdf1-1e0c-11e7-ba12-7085c22a21b6
-보고서 상태: 0
-해시된 패킷: f8fd38572f313d615884d43dfdccd175
