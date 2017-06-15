@@ -514,4 +514,12 @@
 
 
 
+2017-06-15
+----------
+1. Sync 오류 " https://stackoverflow.com/questions/15387640/github-windows-failed-to-sync-this-branch 참조
+2. 다음 미팅
+  - 6월 29일 목요일 오후 2시
+  - 6월 18일까지 하기로 했던 것 해오기
+  - 7월 18일까지 하기로 한 작업 중 일부해오기.
+
 
